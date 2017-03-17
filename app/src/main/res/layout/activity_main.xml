@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ui.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_activity_page"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/camera_container"
+        android:layout_width="1dp"
+        android:layout_height="1dp">
+    </FrameLayout>
+
+</LinearLayout>
